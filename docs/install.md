@@ -1,10 +1,16 @@
 # Installation guide
-At the moment, the guides available only from sources
+* [Using pip](#using-pip)
+* [From sources](#from-sources)
 
 <br><br>
+# Using pip
+```sh
+pip install fext-cli
+```
+
 # From sources
 Installation from sources requires Go 1.13+<br>
 You can conveniently install the Fext via next command:
-```bash
-go get github.com/Flacy/fext/fext
+```sh
+go install github.com/fextpkg/cli/fext
 ```
