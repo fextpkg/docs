@@ -1,11 +1,12 @@
 # Installation guide
-* [Using pip](#using-pip)
+* [Using install script](#using-install-script)
 * [From sources](#from-sources)
 
 <br><br>
-# Using pip
+# Using install script
 ```sh
-pip install fext-cli
+curl https://cdn.lunte.dev/get-fext.py -o get-fext.py
+python get-fext.py
 ```
 
 # From sources
