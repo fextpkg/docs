@@ -24,6 +24,8 @@ Available options:
 
 * `-n`, `--no-dependencies` - Installs single package without dependencies
 * `-s`, `--silent` - Installs package silently. Output only error messages
+* `-r`, `--requirements` - Install from files. Fext will accept the names of files with a list of packages,
+instead of package names
 
 ## Uninstall
 Syntax: `fext u [options] <package(s)>`
