@@ -8,9 +8,9 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/about' },
       {
-        text: 'v0.1.0',
+        text: 'v0.2.0',
         items: [
-          { text: 'v0.1.0 (current)', link: '/about'}
+          { text: 'v0.2.0 (current)', link: '/about'},
         ]
       }
     ],
