@@ -22,7 +22,7 @@ fext i requests[socks,security]
 
 Available options:
 
-* `-S`, `--single` - Installs single package without dependencies
+* `-n`, `--no-dependencies` - Installs single package without dependencies
 * `-s`, `--silent` - Installs package silently. Output only error messages
 
 ## Uninstall
@@ -32,7 +32,7 @@ Uninstalls single packages without dependencies.<br>
 
 Available options:
 
-* `-w`, `--with-dependencies` - Uninstalls dependencies also
+* `-d`, `--dependencies` - Uninstalls dependencies also
 
 ## Freeze
 Syntax: `fext freeze`
