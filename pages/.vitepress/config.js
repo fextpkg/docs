@@ -1,10 +1,16 @@
 import { defineConfig } from "vitepress"
 
 export default defineConfig({
+  lang: "en-US",
   title: "Fext",
   description: "Fext is a modern, small, fast, Go powered package manager for Python",
   head: [
-    ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }],
+      ["link", { rel: "icon", href: "/assets/img/favicon.ico" }],
+      ["meta", { property: "og:title", content: "Fext"}],
+      ["meta", { property: "og:description", content: "Fast & Modern package manager for Python"}],
+      ["meta", { property: "og:site_name", content: "Fext docs"}],
+      ["meta", { property: "og:locale", content: "en_US"}],
+      ["meta", { property: "og:image", content: "/assets/img/logo.png"}],
   ],
   themeConfig: {
     nav: [
