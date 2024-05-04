@@ -1,4 +1,26 @@
 :root {
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(230deg,#B36CF5, #B36CF5, #FF706A,  #FEB51A);
+    --vp-home-hero-name-background: -webkit-linear-gradient(230deg, #B36CF5, #B36CF5, #FF706A, #FEB51A);
+
+    --color-correct: #7acd6c;
+    --color-incorrect: #e36161;
+    --color-annotation: #6e6b66;
   }
+
+.VPBadge.new {
+    border-color: var(--vp-badge-info-border);
+    color: var(--color-correct);
+    background-color: var(--vp-badge-info-bg);
+}
+
+.correct {
+    color: var(--color-correct);
+}
+
+.incorrect {
+    color: var(--color-incorrect);
+}
+
+.annotation {
+    /*color: var(--color-annotation);*/
+}

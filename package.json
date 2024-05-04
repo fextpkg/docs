@@ -6,7 +6,6 @@
     "docs:preview": "vitepress preview pages"
   },
   "dependencies": {
-    "package.json": "^2.0.1",
-    "vitepress": "^1.0.0-rc.24",
+    "vitepress": "^1.0.0-rc.24"
   }
 }
