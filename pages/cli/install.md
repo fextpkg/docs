@@ -16,11 +16,11 @@ If a suitable version is found, it proceeds with downloading and unpacking into 
 [user's site-packages directory](https://peps.python.org/pep-0370/).
 
 ## Options
-| Definition                         | Description                                      |
-|:-----------------------------------|:-------------------------------------------------|
-| `-n`, `--no-dependencies`          | Install packages without their dependencies      |
-| `-q`, `--quiet` (`-s`, `--silent`) | Enable quiet mode. Only errors will be displayed |
-| `-r`, `--requirements`             | Enable package reading from specified files      |
+| Definition                             | Description                                      |
+|:---------------------------------------|:-------------------------------------------------|
+| `-n`, `--no-deps`, `--no-dependencies` | Install packages without their dependencies      |
+| `-q`, `--quiet` (`-s`, `--silent`)     | Enable quiet mode. Only errors will be displayed |
+| `-r`, `--requirements`                 | Enable package reading from specified files      |
 
 ## Examples
 Install latest package version:
@@ -41,6 +41,8 @@ fext i requests==2.1.1 # strictly specified version
 fext i requests<2.1.1>2!=2.0.1 # within a range of versions
 fext i "requests <2.1.1, >2, !=2.0.1" # equivalent to the above query
 fext i requests==2.1.1 aiohttp==4 # multiple packages
+fext i requests==2.1.* # 2.1.<latest>
+fext i requests~=2.1.1 # equivalent to 2.1.*
 ```
 
 Install from requirements files:

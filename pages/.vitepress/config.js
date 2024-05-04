@@ -31,14 +31,12 @@ export default defineConfig({
         text: "Commands",
         collapsed: false,
         items: [
-          { text: 'fext install', link: '/cli/install' },
-          { text: 'fext uninstall', link: '/cli/uninstall' },
-          { text: 'fext freeze', link: '/cli/freeze' },
-          { text: 'fext debug', link: '/cli/debug' },
           { text: "fext install", link: "/cli/install" },
           { text: "fext uninstall", link: "/cli/uninstall" },
           { text: "fext freeze", link: "/cli/freeze" },
           { text: "fext show", link: "/cli/show" },
+          { text: "fext check", link: "/cli/check" },
+          { text: "fext debug", link: "/cli/debug" },
         ],
       }
     ],
